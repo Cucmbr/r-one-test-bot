@@ -13,3 +13,10 @@ nlp:
   intentNoMatchThresholds:
     phrases: 0.2
     patterns: 0.2
+
+injector:
+    api_key: 'ba3b106cfe5bf45c39195a9f3680bd4a'
+    slotfilling:
+        maxSlotRetries: 2
+        stopOnAnyIntent: false
+        stopOnAnyIntentThreshold: 0.2
