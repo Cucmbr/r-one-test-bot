@@ -1,4 +1,4 @@
-let OPENWEATHER_API_KEY = $injector.api_key;
+var OPENWEATHER_API_KEY = $injector.api_key;
 
 function openWeatherMapCurrent(units, lang, q) {
     return $http.get("http://api.openweathermap.org/data/2.5/weather?APPID=${APPID}&units=${units}&lang=${lang}&q=${q}", {
