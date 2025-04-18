@@ -27,7 +27,7 @@
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
-      "text" : "@mysystem.geo"
+      "text" : "@mystem.geo"
     } ],
     "classificationRules" : {
       "refs" : [ ]
