@@ -9,7 +9,7 @@ theme: /
     state: GetWeather
         intent!: /geo
         script:
-            var city = %caila.inflect($parseTree._geo, ["nomn"]);
+            var city = $caila.inflect($parseTree._geo, ["nomn"]);
             openWeatherMapCurrent("metric", "ru", city).then(function (res) {
                 if (res && res.weather) {
                     $reactions.answer("В городе " + capitalize(city) + " " + res.weather[0].description + ", " + Math.round(res.main.temp) + "°C градусов");    
